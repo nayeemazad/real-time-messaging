@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Messaging app</title>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="/socket.io/socket.io.js"></script>
+    <link rel="stylesheet" href="./messages/frontend/css/message.css">
+</head>
+<body>
+    <div class="container">
+        <div class="chat-popup" id="myForm">
+            <div class="chat-container">
+                <h1>Chat</h1>
+                <div id="messages">
+                </div>
+                <label for="msg"><b>Message</b></label>
+                <textarea placeholder="Type message.." name="msg" id="message"></textarea>
+                <button id="send" class="btn">Send</button>
+            </div>
+        </div>
+    </div>
+  
+</body>
+<script src="./messages/frontend/js/message.js"></script>
+</html>
